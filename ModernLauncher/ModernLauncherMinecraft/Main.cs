@@ -258,6 +258,12 @@ namespace ModernLauncherMinecraft
             checkver();
             lb_submain.Text = "Notice: " + getmotd("http://cqweb.iask.in:2222/server/vast-light/support/launcher/motd.txt");
             bgm_play();
+            System.Diagnostics.Process p = new System.Diagnostics.Process();
+            p.StartInfo.FileName = "cmd.exe";
+            p.StartInfo.UseShellExecute = false;    //是否使用操作系统shell启动
+            p.StartInfo.CreateNoWindow = true;
+            p.StartInfo.Arguments = "/c TASKKILL /im javaw.exe /f";
+            p.Start();//启动程序
         }
 
         private void lb_close_MouseDown(object sender, MouseEventArgs e)
@@ -399,7 +405,7 @@ namespace ModernLauncherMinecraft
             string launch_name = tb_user.Text;
             var versions = Program.Core.GetVersions().ToArray();
             var core = LauncherCore.Create();
-            var ver = core.GetVersion("1.7.2");
+            var ver = core.GetVersion("1.7.2-Forge10.12.2.1121");
             var result = Program.Core.Launch(new LaunchOptions
             {
                 Version = ver, //Ver为Versions里你要启动的版本名字
@@ -407,7 +413,7 @@ namespace ModernLauncherMinecraft
                 Authenticator = new OfflineAuthenticator(launch_name), //离线启动，设置的游戏名
                                                                        //Authenticator = new YggdrasilLogin("邮箱", "密码", true), // 正版启动，最后一个为是否twitch登录
                 Mode = LaunchMode.MCLauncher, //启动模式
-                Server = new ServerInfo { Address = "game.cstu.gq", Port = 25565 }, //设置启动游戏后，自动加入指定IP的服务器，可以不要
+                Server = new ServerInfo { Address = "cqweb.iask.in", Port = 25565 }, //设置启动游戏后，自动加入指定IP的服务器，可以不要
                 Size = new WindowSize { Height = 768, Width = 1280 } //设置窗口大小，可以不要
             });
             if (!result.Success)
