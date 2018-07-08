@@ -40,7 +40,6 @@
             this.lb_submain = new System.Windows.Forms.Label();
             this.time_status = new System.Windows.Forms.Timer(this.components);
             this.lb_status = new System.Windows.Forms.Label();
-            this.launch_quartz = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lb_close
@@ -124,22 +123,11 @@
             this.lb_status.ForeColor = System.Drawing.Color.White;
             this.lb_status.Name = "lb_status";
             // 
-            // launch_quartz
-            // 
-            this.launch_quartz.BackColor = System.Drawing.Color.Transparent;
-            resources.ApplyResources(this.launch_quartz, "launch_quartz");
-            this.launch_quartz.FlatAppearance.BorderColor = System.Drawing.Color.Wheat;
-            this.launch_quartz.ForeColor = System.Drawing.Color.Wheat;
-            this.launch_quartz.Name = "launch_quartz";
-            this.launch_quartz.UseVisualStyleBackColor = false;
-            this.launch_quartz.Click += new System.EventHandler(this.launch_quartz_Click);
-            // 
             // Main
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::ModernLauncherMinecraft.Properties.Resources.background;
-            this.Controls.Add(this.launch_quartz);
             this.Controls.Add(this.lb_status);
             this.Controls.Add(this.lb_submain);
             this.Controls.Add(this.lb_main);
@@ -154,8 +142,6 @@
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Main_FormClosed);
             this.Load += new System.EventHandler(this.Main_Load);
             this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Main_MouseDown);
-            this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Main_MouseMove);
-            this.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Main_MouseUp);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -173,7 +159,6 @@
         private System.Windows.Forms.Label lb_submain;
         private System.Windows.Forms.Timer time_status;
         private System.Windows.Forms.Label lb_status;
-        private System.Windows.Forms.Button launch_quartz;
     }
 }
 

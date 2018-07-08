@@ -76,9 +76,9 @@
             // 
             // bt_install
             // 
+            resources.ApplyResources(this.bt_install, "bt_install");
             this.bt_install.BackColor = System.Drawing.Color.Transparent;
             this.bt_install.FlatAppearance.BorderColor = System.Drawing.Color.GreenYellow;
-            resources.ApplyResources(this.bt_install, "bt_install");
             this.bt_install.ForeColor = System.Drawing.Color.GreenYellow;
             this.bt_install.Name = "bt_install";
             this.bt_install.UseVisualStyleBackColor = false;
@@ -157,8 +157,6 @@
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Main_FormClosed);
             this.Load += new System.EventHandler(this.Main_Load);
             this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Main_MouseDown);
-            this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Main_MouseMove);
-            this.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Main_MouseUp);
             this.ResumeLayout(false);
             this.PerformLayout();
 

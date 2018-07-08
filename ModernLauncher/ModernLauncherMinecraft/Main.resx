@@ -150,7 +150,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;lb_close.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>7</value>
   </data>
   <data name="lb_mini.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -180,7 +180,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;lb_mini.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>6</value>
   </data>
   <data name="lb_title.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -210,7 +210,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;lb_title.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>5</value>
   </data>
   <data name="lb_user.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -240,7 +240,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;lb_user.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>8</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="tb_user.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
@@ -268,7 +268,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;tb_user.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>4</value>
   </data>
   <data name="launch_vlw.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -280,7 +280,7 @@
     <value>Segoe UI, 18pt</value>
   </data>
   <data name="launch_vlw.Location" type="System.Drawing.Point, System.Drawing">
-    <value>364, 341</value>
+    <value>364, 392</value>
   </data>
   <data name="launch_vlw.Size" type="System.Drawing.Size, System.Drawing">
     <value>344, 45</value>
@@ -301,7 +301,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;launch_vlw.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>3</value>
   </data>
   <data name="lb_main.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -331,7 +331,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;lb_main.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>2</value>
   </data>
   <data name="lb_submain.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -364,7 +364,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;lb_submain.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>1</value>
   </data>
   <metadata name="time_status.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
@@ -400,42 +400,6 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;lb_status.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="launch_quartz.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="launch_quartz.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="launch_quartz.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 18pt</value>
-  </data>
-  <data name="launch_quartz.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="launch_quartz.Location" type="System.Drawing.Point, System.Drawing">
-    <value>364, 392</value>
-  </data>
-  <data name="launch_quartz.Size" type="System.Drawing.Size, System.Drawing">
-    <value>344, 45</value>
-  </data>
-  <data name="launch_quartz.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
-  </data>
-  <data name="launch_quartz.Text" xml:space="preserve">
-    <value>Launch Vast-Light QUARTZ</value>
-  </data>
-  <data name="&gt;&gt;launch_quartz.Name" xml:space="preserve">
-    <value>launch_quartz</value>
-  </data>
-  <data name="&gt;&gt;launch_quartz.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;launch_quartz.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;launch_quartz.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
