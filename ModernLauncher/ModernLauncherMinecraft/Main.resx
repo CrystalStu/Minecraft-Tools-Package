@@ -117,113 +117,494 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lb_close.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="lb_close.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 35pt</value>
+  </data>
+  <data name="lb_close.Location" type="System.Drawing.Point, System.Drawing">
+    <value>658, 0</value>
+  </data>
+  <data name="lb_close.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 62</value>
+  </data>
+  <data name="lb_close.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lb_close.Text" xml:space="preserve">
+    <value>×</value>
+  </data>
+  <data name="lb_close.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;lb_close.Name" xml:space="preserve">
+    <value>lb_close</value>
+  </data>
+  <data name="&gt;&gt;lb_close.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lb_close.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lb_close.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="lb_mini.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lb_mini.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 35pt</value>
+  </data>
+  <data name="lb_mini.Location" type="System.Drawing.Point, System.Drawing">
+    <value>603, 0</value>
+  </data>
+  <data name="lb_mini.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 62</value>
+  </data>
+  <data name="lb_mini.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="lb_mini.Text" xml:space="preserve">
+    <value>–</value>
+  </data>
+  <data name="&gt;&gt;lb_mini.Name" xml:space="preserve">
+    <value>lb_mini</value>
+  </data>
+  <data name="&gt;&gt;lb_mini.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lb_mini.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lb_mini.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="lb_title.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lb_title.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 20pt, style=Bold</value>
+  </data>
+  <data name="lb_title.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 24</value>
+  </data>
+  <data name="lb_title.Size" type="System.Drawing.Size, System.Drawing">
+    <value>270, 37</value>
+  </data>
+  <data name="lb_title.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lb_title.Text" xml:space="preserve">
+    <value>Vast-Light Launcher</value>
+  </data>
+  <data name="&gt;&gt;lb_title.Name" xml:space="preserve">
+    <value>lb_title</value>
+  </data>
+  <data name="&gt;&gt;lb_title.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lb_title.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lb_title.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="lb_user.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lb_user.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 11.25pt</value>
+  </data>
+  <data name="lb_user.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 79</value>
+  </data>
+  <data name="lb_user.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 20</value>
+  </data>
+  <data name="lb_user.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="lb_user.Text" xml:space="preserve">
+    <value>Username:</value>
+  </data>
+  <data name="&gt;&gt;lb_user.Name" xml:space="preserve">
+    <value>lb_user</value>
+  </data>
+  <data name="&gt;&gt;lb_user.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lb_user.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lb_user.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="tb_user.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Disable</value>
+  </data>
+  <data name="tb_user.Location" type="System.Drawing.Point, System.Drawing">
+    <value>101, 75</value>
+  </data>
+  <data name="tb_user.MaxLength" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="tb_user.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 23</value>
+  </data>
+  <data name="tb_user.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;tb_user.Name" xml:space="preserve">
+    <value>tb_user</value>
+  </data>
+  <data name="&gt;&gt;tb_user.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tb_user.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tb_user.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="launch_vlw.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="launch_vlw.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="launch_vlw.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 18pt</value>
+  </data>
+  <data name="launch_vlw.Location" type="System.Drawing.Point, System.Drawing">
+    <value>364, 392</value>
+  </data>
+  <data name="launch_vlw.Size" type="System.Drawing.Size, System.Drawing">
+    <value>344, 45</value>
+  </data>
+  <data name="launch_vlw.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="launch_vlw.Text" xml:space="preserve">
+    <value>Launch Vast-Light World</value>
+  </data>
+  <data name="&gt;&gt;launch_vlw.Name" xml:space="preserve">
+    <value>launch_vlw</value>
+  </data>
+  <data name="&gt;&gt;launch_vlw.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="&gt;&gt;launch_vlw.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="bt_register.TabIndex" type="System.Int32, mscorlib">
-    <value>13</value>
-  </data>
   <data name="&gt;&gt;launch_vlw.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="lb_main.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lb_main.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 36pt</value>
+  </data>
+  <data name="lb_main.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 160</value>
+  </data>
+  <data name="lb_main.Size" type="System.Drawing.Size, System.Drawing">
+    <value>238, 65</value>
+  </data>
+  <data name="lb_main.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="lb_main.Text" xml:space="preserve">
+    <value>Welcome!</value>
+  </data>
+  <data name="&gt;&gt;lb_main.Name" xml:space="preserve">
+    <value>lb_main</value>
+  </data>
+  <data name="&gt;&gt;lb_main.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lb_main.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lb_main.ZOrder" xml:space="preserve">
     <value>8</value>
   </data>
   <data name="lb_submain.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="tb_user.Size" type="System.Drawing.Size, System.Drawing">
-    <value>103, 23</value>
+  <data name="lb_submain.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 16pt</value>
   </data>
-  <data name="&gt;&gt;lb_memory.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="lb_submain.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="lb_mini.Size" type="System.Drawing.Size, System.Drawing">
-    <value>51, 62</value>
+  <data name="lb_submain.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 226</value>
   </data>
-  <data name="&gt;&gt;launch_vlw.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="tb_user.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="lb_main.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 36pt</value>
-  </data>
-  <data name="lb_status.Text" xml:space="preserve">
-    <value>Loading..</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
+  <data name="lb_submain.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 30</value>
   </data>
   <data name="lb_submain.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
   </data>
+  <data name="lb_submain.Text" xml:space="preserve">
+    <value>Loading..</value>
+  </data>
+  <data name="&gt;&gt;lb_submain.Name" xml:space="preserve">
+    <value>lb_submain</value>
+  </data>
+  <data name="&gt;&gt;lb_submain.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lb_submain.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lb_submain.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <metadata name="time_status.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="lb_status.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lb_status.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 16pt</value>
+  </data>
+  <data name="lb_status.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lb_status.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 265</value>
+  </data>
+  <data name="lb_status.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 30</value>
+  </data>
+  <data name="lb_status.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="lb_status.Text" xml:space="preserve">
+    <value>Loading..</value>
+  </data>
   <data name="&gt;&gt;lb_status.Name" xml:space="preserve">
     <value>lb_status</value>
+  </data>
+  <data name="&gt;&gt;lb_status.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lb_status.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lb_status.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="tb_pass.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Disable</value>
   </data>
   <data name="tb_pass.Location" type="System.Drawing.Point, System.Drawing">
     <value>309, 75</value>
   </data>
-  <data name="&gt;&gt;lb_title.ZOrder" xml:space="preserve">
+  <data name="tb_pass.MaxLength" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="tb_pass.PasswordChar" type="System.Char, mscorlib" xml:space="preserve">
+    <value>•</value>
+  </data>
+  <data name="tb_pass.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 23</value>
+  </data>
+  <data name="tb_pass.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
+  </data>
+  <data name="&gt;&gt;tb_pass.Name" xml:space="preserve">
+    <value>tb_pass</value>
+  </data>
+  <data name="&gt;&gt;tb_pass.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tb_pass.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tb_pass.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lb_pass.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lb_pass.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 11.25pt</value>
+  </data>
+  <data name="lb_pass.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lb_pass.Location" type="System.Drawing.Point, System.Drawing">
+    <value>230, 79</value>
+  </data>
+  <data name="lb_pass.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 20</value>
+  </data>
+  <data name="lb_pass.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="lb_pass.Text" xml:space="preserve">
+    <value>Password:</value>
+  </data>
+  <data name="&gt;&gt;lb_pass.Name" xml:space="preserve">
+    <value>lb_pass</value>
+  </data>
+  <data name="&gt;&gt;lb_pass.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lb_pass.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lb_pass.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="tb_memory.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Off</value>
+  </data>
+  <data name="tb_memory.Location" type="System.Drawing.Point, System.Drawing">
+    <value>590, 75</value>
+  </data>
+  <data name="tb_memory.MaxLength" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="tb_memory.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 23</value>
+  </data>
+  <data name="tb_memory.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="tb_memory.Text" xml:space="preserve">
+    <value>1024</value>
+  </data>
+  <data name="&gt;&gt;tb_memory.Name" xml:space="preserve">
+    <value>tb_memory</value>
+  </data>
+  <data name="&gt;&gt;tb_memory.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tb_memory.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tb_memory.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lb_memory.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lb_memory.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 11.25pt</value>
+  </data>
+  <data name="lb_memory.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lb_memory.Location" type="System.Drawing.Point, System.Drawing">
+    <value>446, 78</value>
+  </data>
+  <data name="lb_memory.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 20</value>
+  </data>
+  <data name="lb_memory.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
   </data>
   <data name="lb_memory.Text" xml:space="preserve">
     <value>Max. Memory (MB):</value>
   </data>
-  <data name="lb_memory.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="&gt;&gt;lb_memory.Name" xml:space="preserve">
+    <value>lb_memory</value>
+  </data>
+  <data name="&gt;&gt;lb_memory.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lb_memory.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lb_memory.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="bt_register.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="bt_register.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 11.25pt</value>
+  </data>
+  <data name="bt_register.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="bt_register.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 104</value>
   </data>
-  <data name="tb_pass.MaxLength" type="System.Int32, mscorlib">
-    <value>16</value>
+  <data name="bt_register.Size" type="System.Drawing.Size, System.Drawing">
+    <value>400, 32</value>
   </data>
-  <data name="&gt;&gt;lb_close.Name" xml:space="preserve">
-    <value>lb_close</value>
+  <data name="bt_register.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
   </data>
-  <data name="lb_title.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="bt_register.Text" xml:space="preserve">
+    <value>User Register (Chinese) (or contact us)</value>
   </data>
-  <data name="&gt;&gt;tb_user.Parent" xml:space="preserve">
+  <data name="&gt;&gt;bt_register.Name" xml:space="preserve">
+    <value>bt_register</value>
+  </data>
+  <data name="&gt;&gt;bt_register.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;bt_register.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="lb_memory.Size" type="System.Drawing.Size, System.Drawing">
-    <value>138, 20</value>
+  <data name="&gt;&gt;bt_register.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
-  <data name="lb_close.TabIndex" type="System.Int32, mscorlib">
+  <data name="cb_fullscreen.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cb_fullscreen.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="cb_fullscreen.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 11.5pt</value>
+  </data>
+  <data name="cb_fullscreen.Location" type="System.Drawing.Point, System.Drawing">
+    <value>591, 111</value>
+  </data>
+  <data name="cb_fullscreen.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 25</value>
+  </data>
+  <data name="cb_fullscreen.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="cb_fullscreen.Text" xml:space="preserve">
+    <value>Full Screen</value>
+  </data>
+  <data name="&gt;&gt;cb_fullscreen.Name" xml:space="preserve">
+    <value>cb_fullscreen</value>
+  </data>
+  <data name="&gt;&gt;cb_fullscreen.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cb_fullscreen.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cb_fullscreen.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="&gt;&gt;lb_main.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="tb_memory.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>Vast-Light Launcher Minecraft</value>
-  </data>
-  <data name="lb_pass.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="lb_mini.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 35pt</value>
-  </data>
-  <data name="lb_close.Text" xml:space="preserve">
-    <value>×</value>
-  </data>
-  <data name="tb_memory.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>Off</value>
-  </data>
-  <data name="launch_vlw.Location" type="System.Drawing.Point, System.Drawing">
-    <value>364, 392</value>
-  </data>
-  <data name="lb_title.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 24</value>
-  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>7, 15</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>720, 449</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -1357,370 +1738,22 @@
         //////////////////////////////////8=
 </value>
   </data>
-  <data name="&gt;&gt;lb_mini.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="lb_user.Location" type="System.Drawing.Point, System.Drawing">
-    <value>15, 79</value>
-  </data>
-  <data name="&gt;&gt;lb_memory.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="lb_submain.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="&gt;&gt;lb_close.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tb_memory.Name" xml:space="preserve">
-    <value>tb_memory</value>
-  </data>
-  <data name="lb_user.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lb_main.Text" xml:space="preserve">
-    <value>Welcome!</value>
-  </data>
-  <data name="&gt;&gt;lb_pass.Name" xml:space="preserve">
-    <value>lb_pass</value>
-  </data>
-  <data name="lb_memory.Location" type="System.Drawing.Point, System.Drawing">
-    <value>446, 78</value>
-  </data>
-  <data name="&gt;&gt;lb_title.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="bt_register.Size" type="System.Drawing.Size, System.Drawing">
-    <value>400, 32</value>
-  </data>
-  <data name="lb_user.Size" type="System.Drawing.Size, System.Drawing">
-    <value>78, 20</value>
-  </data>
-  <data name="lb_status.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 16pt</value>
-  </data>
-  <data name="lb_title.Size" type="System.Drawing.Size, System.Drawing">
-    <value>270, 37</value>
-  </data>
-  <data name="bt_register.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="&gt;&gt;launch_vlw.Name" xml:space="preserve">
-    <value>launch_vlw</value>
-  </data>
-  <data name="&gt;&gt;tb_pass.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="lb_status.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="bt_register.Text" xml:space="preserve">
-    <value>User Register (Chinese) (or contact us)</value>
-  </data>
-  <data name="&gt;&gt;lb_pass.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="launch_vlw.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 18pt</value>
-  </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>Main</value>
-  </data>
-  <data name="&gt;&gt;lb_submain.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="lb_submain.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 30</value>
-  </data>
-  <data name="&gt;&gt;tb_pass.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="tb_memory.Size" type="System.Drawing.Size, System.Drawing">
-    <value>103, 23</value>
-  </data>
-  <data name="lb_mini.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="tb_pass.Size" type="System.Drawing.Size, System.Drawing">
-    <value>103, 23</value>
-  </data>
-  <data name="&gt;&gt;tb_user.Name" xml:space="preserve">
-    <value>tb_user</value>
-  </data>
-  <data name="&gt;&gt;bt_register.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="lb_main.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;lb_mini.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="lb_user.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 11.25pt</value>
-  </data>
-  <data name="lb_main.Size" type="System.Drawing.Size, System.Drawing">
-    <value>238, 65</value>
-  </data>
-  <data name="&gt;&gt;lb_memory.Name" xml:space="preserve">
-    <value>lb_memory</value>
-  </data>
-  <data name="lb_user.Text" xml:space="preserve">
-    <value>Username:</value>
-  </data>
-  <data name="&gt;&gt;lb_close.ZOrder" xml:space="preserve">
-    <value>12</value>
-  </data>
-  <data name="lb_mini.Text" xml:space="preserve">
-    <value>–</value>
-  </data>
-  <data name="lb_submain.Text" xml:space="preserve">
-    <value>Loading..</value>
-  </data>
-  <data name="&gt;&gt;lb_submain.Name" xml:space="preserve">
-    <value>lb_submain</value>
-  </data>
-  <data name="lb_memory.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
-  </data>
-  <data name="&gt;&gt;tb_memory.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="lb_title.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 20pt, style=Bold</value>
-  </data>
-  <data name="tb_pass.PasswordChar" type="System.Char, mscorlib" xml:space="preserve">
-    <value>•</value>
-  </data>
-  <data name="&gt;&gt;lb_pass.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="lb_close.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="tb_user.MaxLength" type="System.Int32, mscorlib">
-    <value>16</value>
-  </data>
-  <data name="&gt;&gt;lb_title.Name" xml:space="preserve">
-    <value>lb_title</value>
-  </data>
-  <data name="&gt;&gt;lb_submain.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="tb_memory.MaxLength" type="System.Int32, mscorlib">
-    <value>16</value>
-  </data>
-  <data name="&gt;&gt;bt_register.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="tb_memory.Location" type="System.Drawing.Point, System.Drawing">
-    <value>590, 75</value>
-  </data>
-  <data name="tb_user.Location" type="System.Drawing.Point, System.Drawing">
-    <value>101, 75</value>
-  </data>
-  <data name="lb_status.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="lb_pass.Size" type="System.Drawing.Size, System.Drawing">
-    <value>73, 20</value>
-  </data>
-  <data name="lb_main.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 160</value>
-  </data>
-  <data name="lb_submain.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 16pt</value>
-  </data>
-  <data name="lb_close.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="tb_memory.Text" xml:space="preserve">
-    <value>1024</value>
-  </data>
-  <data name="&gt;&gt;tb_memory.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;lb_status.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="lb_status.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 30</value>
-  </data>
-  <data name="&gt;&gt;bt_register.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;lb_status.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="tb_pass.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
-  <data name="bt_register.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="launch_vlw.Size" type="System.Drawing.Size, System.Drawing">
-    <value>344, 45</value>
-  </data>
-  <data name="lb_mini.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lb_memory.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 11.25pt</value>
-  </data>
-  <data name="&gt;&gt;lb_main.Name" xml:space="preserve">
-    <value>lb_main</value>
-  </data>
-  <data name="&gt;&gt;lb_main.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;lb_user.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="lb_mini.Location" type="System.Drawing.Point, System.Drawing">
-    <value>603, 0</value>
-  </data>
-  <data name="launch_vlw.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="&gt;&gt;lb_submain.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="lb_pass.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
-  </data>
-  <data name="bt_register.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 11.25pt</value>
-  </data>
-  <data name="&gt;&gt;lb_mini.ZOrder" xml:space="preserve">
-    <value>11</value>
-  </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="lb_main.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;lb_memory.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;lb_status.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;tb_pass.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;lb_mini.Name" xml:space="preserve">
-    <value>lb_mini</value>
-  </data>
-  <data name="&gt;&gt;lb_user.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;bt_register.Name" xml:space="preserve">
-    <value>bt_register</value>
-  </data>
-  <data name="&gt;&gt;tb_user.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tb_user.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="lb_pass.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="tb_user.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>Disable</value>
-  </data>
-  <data name="launch_vlw.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="&gt;&gt;tb_memory.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lb_main.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="lb_pass.Location" type="System.Drawing.Point, System.Drawing">
-    <value>230, 79</value>
-  </data>
-  <data name="&gt;&gt;lb_pass.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="tb_pass.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>Disable</value>
-  </data>
-  <data name="lb_status.Location" type="System.Drawing.Point, System.Drawing">
-    <value>17, 265</value>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Vast-Light Launcher Minecraft</value>
   </data>
   <data name="&gt;&gt;time_status.Name" xml:space="preserve">
     <value>time_status</value>
   </data>
-  <data name="launch_vlw.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;tb_pass.Name" xml:space="preserve">
-    <value>tb_pass</value>
-  </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>720, 449</value>
-  </data>
-  <data name="lb_pass.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 11.25pt</value>
-  </data>
-  <data name="&gt;&gt;lb_close.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
   <data name="&gt;&gt;time_status.Type" xml:space="preserve">
     <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="lb_title.Text" xml:space="preserve">
-    <value>Vast-Light Launcher</value>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Main</value>
   </data>
-  <data name="&gt;&gt;lb_user.ZOrder" xml:space="preserve">
-    <value>13</value>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="lb_user.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="lb_pass.Text" xml:space="preserve">
-    <value>Password:</value>
-  </data>
-  <data name="lb_close.Location" type="System.Drawing.Point, System.Drawing">
-    <value>658, 0</value>
-  </data>
-  <data name="lb_status.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="launch_vlw.Text" xml:space="preserve">
-    <value>Launch Vast-Light World</value>
-  </data>
-  <data name="lb_close.Size" type="System.Drawing.Size, System.Drawing">
-    <value>59, 62</value>
-  </data>
-  <data name="lb_submain.Location" type="System.Drawing.Point, System.Drawing">
-    <value>17, 226</value>
-  </data>
-  <data name="&gt;&gt;lb_title.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="lb_memory.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lb_title.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="lb_close.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 35pt</value>
-  </data>
-  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 9pt</value>
-  </data>
-  <data name="&gt;&gt;lb_user.Name" xml:space="preserve">
-    <value>lb_user</value>
-  </data>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="time_status.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
 </root>

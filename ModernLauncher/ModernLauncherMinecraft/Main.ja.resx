@@ -172,6 +172,15 @@
   <data name="bt_register.Text" xml:space="preserve">
     <value>新しいユーザー登録（中国語）（また私たちに連絡を作ります）</value>
   </data>
+  <data name="cb_fullscreen.Location" type="System.Drawing.Point, System.Drawing">
+    <value>525, 108</value>
+  </data>
+  <data name="cb_fullscreen.Size" type="System.Drawing.Size, System.Drawing">
+    <value>168, 25</value>
+  </data>
+  <data name="cb_fullscreen.Text" xml:space="preserve">
+    <value>ゲームは全画面表示</value>
+  </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAABAAEAgIAAAAEAIAAoCAEAFgAAACgAAACAAAAAAAEAAAEAIAAAAAAAAAABAMMOAADDDgAAAAAAAAAA
