@@ -77,7 +77,7 @@ namespace ModernLauncherMinecraft
         #region Event Component Handler
         private void launch_vlw_Click(object sender, EventArgs e)
         {
-            Launch.VLW(tb_user.Text);
+            Launch.VLW(tb_user.Text, tb_pass.Text, tb_memory.Text, Application.StartupPath);
             Sortie();
         }
 
@@ -91,6 +91,11 @@ namespace ModernLauncherMinecraft
                 // launch_quartz.Enabled = true;
                 time_status.Enabled = false;
             }
+        }
+
+        private void bt_register_Click(object sender, EventArgs e)
+        {
+            Process.Start("https://login2.nide8.com:233/28f8f58a8a7f11e88feb525400b59b6a/register");
         }
         #endregion
 
@@ -205,8 +210,8 @@ namespace ModernLauncherMinecraft
             CheckGit();
             LauncherUpdate();
             ClientUpdate();
-#endif
             lb_submain.Text = "Notice: " + DownloadText("https://vl.cstu.gq/support/launcher/motd.txt");
+#endif
             UI.PlayBGM();
 #if (!NOCHECK)
             Process p = new Process();
@@ -245,6 +250,6 @@ namespace ModernLauncherMinecraft
             Thread.Sleep(100);
             Environment.Exit(0);
         }
-#endregion
+        #endregion
     }
 }

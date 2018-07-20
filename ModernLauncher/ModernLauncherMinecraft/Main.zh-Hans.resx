@@ -118,59 +118,20 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="lb_title.Size" type="System.Drawing.Size, System.Drawing">
-    <value>262, 37</value>
-  </data>
-  <data name="lb_title.Text" xml:space="preserve">
-    <value>Vast-Light ランチャー</value>
-  </data>
-  <data name="lb_user.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 78</value>
-  </data>
-  <data name="lb_user.Size" type="System.Drawing.Size, System.Drawing">
-    <value>120, 20</value>
-  </data>
-  <data name="lb_user.Text" xml:space="preserve">
-    <value>マインクラフトID：</value>
-  </data>
-  <data name="tb_user.Location" type="System.Drawing.Point, System.Drawing">
-    <value>123, 75</value>
-  </data>
-  <data name="launch_vlw.Text" xml:space="preserve">
-    <value>Vast-Light の世界へ行きます！</value>
-  </data>
-  <data name="lb_main.Size" type="System.Drawing.Size, System.Drawing">
-    <value>274, 65</value>
-  </data>
-  <data name="lb_main.Text" xml:space="preserve">
-    <value>こんにちは！</value>
-  </data>
-  <data name="lb_submain.Size" type="System.Drawing.Size, System.Drawing">
-    <value>152, 30</value>
-  </data>
-  <data name="lb_submain.Text" xml:space="preserve">
-    <value>読み込み中。。</value>
-  </data>
-  <data name="lb_status.Size" type="System.Drawing.Size, System.Drawing">
-    <value>152, 30</value>
-  </data>
-  <data name="lb_status.Text" xml:space="preserve">
-    <value>読み込み中。。</value>
-  </data>
   <data name="lb_pass.Size" type="System.Drawing.Size, System.Drawing">
-    <value>87, 20</value>
+    <value>57, 20</value>
   </data>
   <data name="lb_pass.Text" xml:space="preserve">
-    <value>パスワード：</value>
+    <value>密码：</value>
+  </data>
+  <data name="lb_memory.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 20</value>
   </data>
   <data name="lb_memory.Text" xml:space="preserve">
-    <value>メモリーの制限 (MB):</value>
-  </data>
-  <data name="bt_register.Size" type="System.Drawing.Size, System.Drawing">
-    <value>448, 32</value>
+    <value>最大内存 (MB):</value>
   </data>
   <data name="bt_register.Text" xml:space="preserve">
-    <value>新しいユーザー登録（中国語）（また私たちに連絡を作ります）</value>
+    <value>新用户注册</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>

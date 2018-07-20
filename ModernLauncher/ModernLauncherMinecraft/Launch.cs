@@ -1,5 +1,6 @@
 ﻿using KMCCC.Authentication;
 using KMCCC.Launcher;
+using System;
 using System.Linq;
 using System.Threading;
 using System.Windows.Forms;
@@ -8,20 +9,21 @@ namespace ModernLauncherMinecraft
 {
     class Launch
     {
-        public static void VLW(string username)
+        public static void VLW(string username, string password, string memory, string path)
         {
-            string launch_name = username;
+            string serverStr = "28f8f58a8a7f11e88feb525400b59b6a";
             var versions = Program.Core.GetVersions().ToArray();
             var core = LauncherCore.Create();
-            var ver = core.GetVersion("1.8");
+            var ver = core.GetVersion("1.12.2-forge1.12.2-14.23.2.2611");
             var result = Program.Core.Launch(new LaunchOptions
             {
                 Version = ver, //Ver为Versions里你要启动的版本名字
-                MaxMemory = 1024, //最大内存，int类型
-                Authenticator = new OfflineAuthenticator(launch_name), //离线启动，设置的游戏名
-                                                                       //Authenticator = new YggdrasilLogin("邮箱", "密码", true), // 正版启动，最后一个为是否twitch登录
+                MaxMemory = Convert.ToInt32(memory), //最大内存，int类型
+                AgentPath = @"nide8auth.jar=" + serverStr,
+                //Authenticator = new OfflineAuthenticator(username), //离线启动，设置的游戏名
+                Authenticator = new YggdrasilLogin(username, password, true, null, "https://auth2.nide8.com:233/" + serverStr + "/authserver"), // 伪正版启动，最后一个为是否twitch登录
                 Mode = LaunchMode.MCLauncher, //启动模式
-                Server = new ServerInfo { Address = "play.vl.cstu.gq", Port = 25565 }, //设置启动游戏后，自动加入指定IP的服务器，可以不要
+                Server = new ServerInfo { Address = "218.93.208.142", Port = 11314 }, //设置启动游戏后，自动加入指定IP的服务器，可以不要
                 Size = new WindowSize { Height = 768, Width = 1280 } //设置窗口大小，可以不要
             });
             if (!result.Success)

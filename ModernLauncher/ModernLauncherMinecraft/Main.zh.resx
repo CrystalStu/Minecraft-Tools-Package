@@ -151,8 +151,20 @@
   <data name="lb_status.Text" xml:space="preserve">
     <value>加载中。。</value>
   </data>
-  <data name="launch_quartz.Text" xml:space="preserve">
-    <value>启动 石英</value>
+  <data name="lb_pass.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 20</value>
+  </data>
+  <data name="lb_pass.Text" xml:space="preserve">
+    <value>密码：</value>
+  </data>
+  <data name="lb_memory.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 20</value>
+  </data>
+  <data name="lb_memory.Text" xml:space="preserve">
+    <value>最大内存 (MB)：</value>
+  </data>
+  <data name="bt_register.Text" xml:space="preserve">
+    <value>用户注册</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>

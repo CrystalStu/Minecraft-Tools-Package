@@ -40,6 +40,11 @@
             this.lb_submain = new System.Windows.Forms.Label();
             this.time_status = new System.Windows.Forms.Timer(this.components);
             this.lb_status = new System.Windows.Forms.Label();
+            this.tb_pass = new System.Windows.Forms.TextBox();
+            this.lb_pass = new System.Windows.Forms.Label();
+            this.tb_memory = new System.Windows.Forms.TextBox();
+            this.lb_memory = new System.Windows.Forms.Label();
+            this.bt_register = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lb_close
@@ -81,14 +86,14 @@
             // 
             // tb_user
             // 
-            this.tb_user.Cursor = System.Windows.Forms.Cursors.IBeam;
             resources.ApplyResources(this.tb_user, "tb_user");
+            this.tb_user.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.tb_user.Name = "tb_user";
             // 
             // launch_vlw
             // 
-            this.launch_vlw.BackColor = System.Drawing.Color.Transparent;
             resources.ApplyResources(this.launch_vlw, "launch_vlw");
+            this.launch_vlw.BackColor = System.Drawing.Color.Transparent;
             this.launch_vlw.FlatAppearance.BorderColor = System.Drawing.Color.Wheat;
             this.launch_vlw.ForeColor = System.Drawing.Color.Wheat;
             this.launch_vlw.Name = "launch_vlw";
@@ -123,11 +128,52 @@
             this.lb_status.ForeColor = System.Drawing.Color.White;
             this.lb_status.Name = "lb_status";
             // 
+            // tb_pass
+            // 
+            resources.ApplyResources(this.tb_pass, "tb_pass");
+            this.tb_pass.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.tb_pass.Name = "tb_pass";
+            // 
+            // lb_pass
+            // 
+            resources.ApplyResources(this.lb_pass, "lb_pass");
+            this.lb_pass.BackColor = System.Drawing.Color.Transparent;
+            this.lb_pass.ForeColor = System.Drawing.Color.White;
+            this.lb_pass.Name = "lb_pass";
+            // 
+            // tb_memory
+            // 
+            resources.ApplyResources(this.tb_memory, "tb_memory");
+            this.tb_memory.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.tb_memory.Name = "tb_memory";
+            // 
+            // lb_memory
+            // 
+            resources.ApplyResources(this.lb_memory, "lb_memory");
+            this.lb_memory.BackColor = System.Drawing.Color.Transparent;
+            this.lb_memory.ForeColor = System.Drawing.Color.White;
+            this.lb_memory.Name = "lb_memory";
+            // 
+            // bt_register
+            // 
+            resources.ApplyResources(this.bt_register, "bt_register");
+            this.bt_register.BackColor = System.Drawing.Color.Transparent;
+            this.bt_register.FlatAppearance.BorderColor = System.Drawing.Color.Wheat;
+            this.bt_register.ForeColor = System.Drawing.Color.Wheat;
+            this.bt_register.Name = "bt_register";
+            this.bt_register.UseVisualStyleBackColor = false;
+            this.bt_register.Click += new System.EventHandler(this.bt_register_Click);
+            // 
             // Main
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::ModernLauncherMinecraft.Properties.Resources.background;
+            this.Controls.Add(this.bt_register);
+            this.Controls.Add(this.tb_memory);
+            this.Controls.Add(this.lb_memory);
+            this.Controls.Add(this.tb_pass);
+            this.Controls.Add(this.lb_pass);
             this.Controls.Add(this.lb_status);
             this.Controls.Add(this.lb_submain);
             this.Controls.Add(this.lb_main);
@@ -159,6 +205,11 @@
         private System.Windows.Forms.Label lb_submain;
         private System.Windows.Forms.Timer time_status;
         private System.Windows.Forms.Label lb_status;
+        private System.Windows.Forms.TextBox tb_pass;
+        private System.Windows.Forms.Label lb_pass;
+        private System.Windows.Forms.TextBox tb_memory;
+        private System.Windows.Forms.Label lb_memory;
+        private System.Windows.Forms.Button bt_register;
     }
 }
 
