@@ -89,11 +89,11 @@ namespace ModernInstallerMinecraft
         private void Main_Load(object sender, EventArgs e)
         {
             DelTrashAndKillCmd();
-            CheckEnable();
+            // CheckEnable();
             CheckVer();
             lb_submain.Text = "Notice: " + DownloadText("https://vl.cstu.gq/support/installer/motd.txt");
             tb_dest.Text = Application.StartupPath + "\\destination";
-            UI.PlayBGM();
+            // UI.PlayBGM();
         }
 
         private void Main_FormClosed(object sender, FormClosedEventArgs e)
@@ -161,7 +161,9 @@ namespace ModernInstallerMinecraft
 
         void CheckVer()
         {
-            if (Application.ProductVersion != DownloadText("https://vl.cstu.gq/support/installer/ver.txt"))
+            string serverVer = DownloadText("https://vl.cstu.gq/support/installer/ver.txt");
+            if (serverVer.Contains("ERR_RTV_M: ")) return;
+            if (Application.ProductVersion != serverVer)
             {
                 MessageBox.Show("This installer is outdated, please update it.\n\nDetails:\n" + DownloadText("https://vl.cstu.gq/support/installer/upd_log.txt"), "Require to Update", MessageBoxButtons.OK, MessageBoxIcon.Stop);
                 Sortie();
@@ -323,8 +325,8 @@ namespace ModernInstallerMinecraft
         void CmdNotFound()
         {
             time_checkcmd.Enabled = false;
-            MessageBox.Show("Has the cleaning script closed?\nYou must restart this installation, or it will left some unuseful files.", "Cleaning script not detected.", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            Sortie();
+            // MessageBox.Show("Has the cleaning script closed?\nYou must restart this installation, or it will left some unuseful files.", "Cleaning script not detected.", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            // Sortie();
         }
 
         void Sortie()

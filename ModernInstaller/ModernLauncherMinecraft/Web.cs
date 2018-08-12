@@ -44,8 +44,15 @@ namespace ModernInstallerMinecraft
         public static string DownloadText(string url)
         {
             WebClient client = new WebClient();
-            byte[] buffer = client.DownloadData(url);
-            return Encoding.ASCII.GetString(buffer);
+            try
+            {
+                byte[] buffer = client.DownloadData(url);
+                return Encoding.ASCII.GetString(buffer);
+            }
+            catch(Exception e)
+            {
+                return "ERR_RTV_M: " + e;
+            }
         }
     }
 }

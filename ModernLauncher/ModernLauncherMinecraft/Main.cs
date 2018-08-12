@@ -97,6 +97,11 @@ namespace ModernLauncherMinecraft
         {
             Process.Start("https://login2.nide8.com:233/28f8f58a8a7f11e88feb525400b59b6a/register");
         }
+
+        private void bt_website_Click(object sender, EventArgs e)
+        {
+            Process.Start("https://vl.cstu.gq");
+        }
         #endregion
 
         #region UI Event Handler
@@ -124,7 +129,9 @@ namespace ModernLauncherMinecraft
 
         void LauncherUpdate()
         {
-            if (Application.ProductVersion != DownloadText("https://vl.cstu.gq/support/launcher/ver.txt"))
+            string serverVer = DownloadText("https://vl.cstu.gq/support/launcher/ver.txt");
+            if (serverVer.Contains("ERR_RTV_M: ")) return;
+            if (Application.ProductVersion != serverVer)
             {
                 MessageBox.Show("This launcher is outdated, confirm to update it.\n\nDetails:\n" + DownloadText("https://vl.cstu.gq/support/launcher/upd_log.txt"), "Require to Update", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 Process p = new Process();
@@ -206,7 +213,7 @@ namespace ModernLauncherMinecraft
         {
             KillJava();
 #if (!NOCHECK)
-            CheckEnable();
+            // CheckEnable();
             CheckGit();
             LauncherUpdate();
             ClientUpdate();

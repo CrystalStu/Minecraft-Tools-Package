@@ -46,6 +46,7 @@
             this.lb_memory = new System.Windows.Forms.Label();
             this.bt_register = new System.Windows.Forms.Button();
             this.cb_fullscreen = new System.Windows.Forms.CheckBox();
+            this.bt_website = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lb_close
@@ -87,14 +88,14 @@
             // 
             // tb_user
             // 
-            this.tb_user.Cursor = System.Windows.Forms.Cursors.IBeam;
             resources.ApplyResources(this.tb_user, "tb_user");
+            this.tb_user.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.tb_user.Name = "tb_user";
             // 
             // launch_vlw
             // 
-            this.launch_vlw.BackColor = System.Drawing.Color.Transparent;
             resources.ApplyResources(this.launch_vlw, "launch_vlw");
+            this.launch_vlw.BackColor = System.Drawing.Color.Transparent;
             this.launch_vlw.FlatAppearance.BorderColor = System.Drawing.Color.Wheat;
             this.launch_vlw.ForeColor = System.Drawing.Color.Wheat;
             this.launch_vlw.Name = "launch_vlw";
@@ -131,8 +132,8 @@
             // 
             // tb_pass
             // 
-            this.tb_pass.Cursor = System.Windows.Forms.Cursors.IBeam;
             resources.ApplyResources(this.tb_pass, "tb_pass");
+            this.tb_pass.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.tb_pass.Name = "tb_pass";
             // 
             // lb_pass
@@ -144,8 +145,8 @@
             // 
             // tb_memory
             // 
-            this.tb_memory.Cursor = System.Windows.Forms.Cursors.IBeam;
             resources.ApplyResources(this.tb_memory, "tb_memory");
+            this.tb_memory.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.tb_memory.Name = "tb_memory";
             // 
             // lb_memory
@@ -157,9 +158,9 @@
             // 
             // bt_register
             // 
+            resources.ApplyResources(this.bt_register, "bt_register");
             this.bt_register.BackColor = System.Drawing.Color.Transparent;
             this.bt_register.FlatAppearance.BorderColor = System.Drawing.Color.Wheat;
-            resources.ApplyResources(this.bt_register, "bt_register");
             this.bt_register.ForeColor = System.Drawing.Color.Wheat;
             this.bt_register.Name = "bt_register";
             this.bt_register.UseVisualStyleBackColor = false;
@@ -173,11 +174,21 @@
             this.cb_fullscreen.Name = "cb_fullscreen";
             this.cb_fullscreen.UseVisualStyleBackColor = false;
             // 
+            // bt_website
+            // 
+            resources.ApplyResources(this.bt_website, "bt_website");
+            this.bt_website.BackColor = System.Drawing.Color.Transparent;
+            this.bt_website.FlatAppearance.BorderColor = System.Drawing.Color.Wheat;
+            this.bt_website.ForeColor = System.Drawing.Color.Wheat;
+            this.bt_website.Name = "bt_website";
+            this.bt_website.UseVisualStyleBackColor = false;
+            this.bt_website.Click += new System.EventHandler(this.bt_website_Click);
+            // 
             // Main
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::ModernLauncherMinecraft.Properties.Resources.background;
+            this.Controls.Add(this.bt_website);
             this.Controls.Add(this.cb_fullscreen);
             this.Controls.Add(this.bt_register);
             this.Controls.Add(this.tb_memory);
@@ -221,6 +232,7 @@
         private System.Windows.Forms.Label lb_memory;
         private System.Windows.Forms.Button bt_register;
         private System.Windows.Forms.CheckBox cb_fullscreen;
+        private System.Windows.Forms.Button bt_website;
     }
 }
 
