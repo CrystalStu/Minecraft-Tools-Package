@@ -42,6 +42,7 @@
             this.time_checkcmd = new System.Windows.Forms.Timer(this.components);
             this.lb_dest = new System.Windows.Forms.Label();
             this.tb_dest = new System.Windows.Forms.TextBox();
+            this.lb_note_override = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // lb_close
@@ -136,19 +137,27 @@
             resources.ApplyResources(this.tb_dest, "tb_dest");
             this.tb_dest.Name = "tb_dest";
             // 
+            // lb_note_override
+            // 
+            resources.ApplyResources(this.lb_note_override, "lb_note_override");
+            this.lb_note_override.BackColor = System.Drawing.Color.Transparent;
+            this.lb_note_override.ForeColor = System.Drawing.Color.White;
+            this.lb_note_override.Name = "lb_note_override";
+            // 
             // Main
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Indigo;
             this.BackgroundImage = global::ModernInstallerMinecraft.Properties.Resources.background;
+            this.Controls.Add(this.bt_install);
+            this.Controls.Add(this.lb_note_override);
             this.Controls.Add(this.tb_dest);
             this.Controls.Add(this.lb_dest);
             this.Controls.Add(this.lb_img_copyright);
             this.Controls.Add(this.lb_status);
             this.Controls.Add(this.lb_submain);
             this.Controls.Add(this.lb_main);
-            this.Controls.Add(this.bt_install);
             this.Controls.Add(this.lb_title);
             this.Controls.Add(this.lb_mini);
             this.Controls.Add(this.lb_close);
@@ -176,6 +185,7 @@
         private System.Windows.Forms.Timer time_checkcmd;
         private System.Windows.Forms.Label lb_dest;
         private System.Windows.Forms.TextBox tb_dest;
+        private System.Windows.Forms.Label lb_note_override;
     }
 }
 

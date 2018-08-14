@@ -106,6 +106,15 @@ namespace ModernInstallerMinecraft
         #region Event Component Handler
         private void bt_install_Click(object sender, EventArgs e)
         {
+            if(tb_dest.Text.Contains(" "))
+            {
+                if(Thread.CurrentThread.CurrentUICulture.Name.Contains("zh"))
+                {
+                    MessageBox.Show("请不要在安装路径中含有空格(' ')，请修改您的选项并重试。");
+                }
+                MessageBox.Show("Please don't contain space(' ') in the destination path, please modify your option and retry.");
+                return;
+            }
             if (installed == false)
             {
                 destination = tb_dest.Text;

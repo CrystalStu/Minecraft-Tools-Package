@@ -158,13 +158,19 @@
     <value>画像をのより © Minecraft.net</value>
   </data>
   <data name="lb_dest.Size" type="System.Drawing.Size, System.Drawing">
-    <value>61, 21</value>
+    <value>141, 21</value>
   </data>
   <data name="lb_dest.Text" xml:space="preserve">
-    <value>フォルダ:</value>
+    <value>デスティネーション：</value>
   </data>
   <data name="tb_dest.Location" type="System.Drawing.Point, System.Drawing">
-    <value>104, 511</value>
+    <value>216, 509</value>
+  </data>
+  <data name="lb_note_override.Size" type="System.Drawing.Size, System.Drawing">
+    <value>316, 15</value>
+  </data>
+  <data name="lb_note_override.Text" xml:space="preserve">
+    <value>ご注意：すべてファールにフォルダを選択して削除されします。</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>

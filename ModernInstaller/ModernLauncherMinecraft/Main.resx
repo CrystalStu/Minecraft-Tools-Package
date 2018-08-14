@@ -125,11 +125,26 @@
   <data name="bt_install.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
+  <data name="&gt;&gt;bt_install.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lb_img_copyright.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lb_mini.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="lb_close.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
+  <data name="lb_submain.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
   <data name="&gt;&gt;lb_status.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;lb_status.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;lb_main.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -147,23 +162,23 @@
   <data name="lb_dest.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="lb_title.Text" xml:space="preserve">
-    <value>Vast-Light Installer</value>
-  </data>
-  <data name="&gt;&gt;lb_img_copyright.Name" xml:space="preserve">
-    <value>lb_img_copyright</value>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
   </data>
   <data name="&gt;&gt;lb_img_copyright.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;lb_submain.ZOrder" xml:space="preserve">
     <value>4</value>
+  </data>
+  <data name="lb_status.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 30</value>
+  </data>
+  <data name="lb_note_override.Text" xml:space="preserve">
+    <value>Please note: All of the files in the folder you selected will be overrided by this installer.</value>
   </data>
   <data name="lb_title.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
-  <data name="&gt;&gt;tb_dest.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="&gt;&gt;lb_status.Name" xml:space="preserve">
+    <value>lb_status</value>
   </data>
   <data name="lb_close.Location" type="System.Drawing.Point, System.Drawing">
     <value>987, -2</value>
@@ -171,17 +186,14 @@
   <data name="lb_main.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="lb_title.Size" type="System.Drawing.Size, System.Drawing">
-    <value>259, 37</value>
-  </data>
-  <data name="&gt;&gt;tb_dest.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="lb_main.Text" xml:space="preserve">
+    <value>Welcome!</value>
   </data>
   <data name="lb_mini.Size" type="System.Drawing.Size, System.Drawing">
     <value>51, 62</value>
   </data>
-  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 9pt</value>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Main</value>
   </data>
   <data name="lb_title.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 20pt, style=Bold</value>
@@ -202,10 +214,13 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;bt_install.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>0</value>
   </data>
-  <data name="lb_status.Location" type="System.Drawing.Point, System.Drawing">
-    <value>83, 344</value>
+  <data name="bt_install.Location" type="System.Drawing.Point, System.Drawing">
+    <value>934, 529</value>
+  </data>
+  <data name="lb_status.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="&gt;&gt;tb_dest.Parent" xml:space="preserve">
     <value>$this</value>
@@ -213,8 +228,8 @@
   <data name="lb_main.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 36pt</value>
   </data>
-  <data name="&gt;&gt;lb_dest.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="&gt;&gt;time_status.Name" xml:space="preserve">
+    <value>time_status</value>
   </data>
   <data name="lb_dest.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 12pt</value>
@@ -231,14 +246,20 @@
   <data name="lb_mini.Location" type="System.Drawing.Point, System.Drawing">
     <value>932, -2</value>
   </data>
-  <data name="lb_status.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 30</value>
+  <data name="&gt;&gt;lb_img_copyright.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lb_img_copyright.Name" xml:space="preserve">
+    <value>lb_img_copyright</value>
   </data>
   <data name="&gt;&gt;lb_dest.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;tb_dest.Name" xml:space="preserve">
     <value>tb_dest</value>
+  </data>
+  <data name="&gt;&gt;lb_status.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
   <data name="lb_submain.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 30</value>
@@ -249,80 +270,68 @@
   <data name="lb_close.Text" xml:space="preserve">
     <value>×</value>
   </data>
-  <data name="&gt;&gt;lb_submain.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="lb_dest.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
   </data>
   <data name="tb_dest.Size" type="System.Drawing.Size, System.Drawing">
     <value>461, 23</value>
   </data>
-  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
-  </data>
-  <data name="&gt;&gt;bt_install.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;lb_submain.ZOrder" xml:space="preserve">
+    <value>6</value>
   </data>
   <data name="&gt;&gt;lb_close.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="lb_title.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="&gt;&gt;time_checkcmd.Name" xml:space="preserve">
+    <value>time_checkcmd</value>
   </data>
   <data name="lb_main.Size" type="System.Drawing.Size, System.Drawing">
     <value>238, 65</value>
   </data>
-  <data name="lb_title.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 24</value>
-  </data>
-  <data name="bt_install.Location" type="System.Drawing.Point, System.Drawing">
-    <value>934, 529</value>
-  </data>
-  <data name="lb_submain.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 16pt</value>
-  </data>
-  <data name="&gt;&gt;lb_submain.Parent" xml:space="preserve">
+  <data name="&gt;&gt;lb_dest.Parent" xml:space="preserve">
     <value>$this</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
   </data>
   <data name="lb_submain.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="&gt;&gt;lb_dest.Name" xml:space="preserve">
     <value>lb_dest</value>
+  </data>
+  <data name="lb_title.Text" xml:space="preserve">
+    <value>Vast-Light Installer</value>
+  </data>
+  <data name="&gt;&gt;lb_main.Name" xml:space="preserve">
+    <value>lb_main</value>
+  </data>
+  <data name="lb_status.Location" type="System.Drawing.Point, System.Drawing">
+    <value>83, 344</value>
+  </data>
+  <data name="&gt;&gt;lb_submain.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lb_dest.ZOrder" xml:space="preserve">
+    <value>3</value>
   </data>
   <data name="bt_install.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 18pt</value>
   </data>
-  <data name="lb_close.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 35pt</value>
-  </data>
-  <data name="&gt;&gt;lb_mini.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;bt_install.Name" xml:space="preserve">
-    <value>bt_install</value>
-  </data>
   <data name="tb_dest.TabIndex" type="System.Int32, mscorlib">
     <value>12</value>
   </data>
-  <data name="&gt;&gt;time_status.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="bt_install.Size" type="System.Drawing.Size, System.Drawing">
-    <value>103, 45</value>
+  <data name="&gt;&gt;tb_dest.ZOrder" xml:space="preserve">
+    <value>2</value>
   </data>
   <data name="&gt;&gt;lb_mini.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;lb_close.ZOrder" xml:space="preserve">
-    <value>9</value>
+  <data name="lb_title.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 24</value>
   </data>
-  <data name="lb_img_copyright.Text" xml:space="preserve">
-    <value>Image from © Minecraft.net</value>
-  </data>
-  <data name="lb_dest.Size" type="System.Drawing.Size, System.Drawing">
-    <value>73, 21</value>
+  <data name="lb_note_override.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="lb_submain.Text" xml:space="preserve">
     <value>Loading..</value>
@@ -330,20 +339,29 @@
   <data name="lb_status.Visible" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
-  <data name="lb_close.Size" type="System.Drawing.Size, System.Drawing">
-    <value>59, 62</value>
+  <data name="lb_title.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="&gt;&gt;lb_close.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
+  <data name="lb_note_override.Location" type="System.Drawing.Point, System.Drawing">
+    <value>44, 537</value>
+  </data>
   <data name="lb_mini.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
-  <data name="&gt;&gt;lb_status.Name" xml:space="preserve">
-    <value>lb_status</value>
+  <data name="&gt;&gt;lb_note_override.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
-  <data name="bt_install.Text" xml:space="preserve">
-    <value>Install</value>
+  <data name="lb_title.Size" type="System.Drawing.Size, System.Drawing">
+    <value>259, 37</value>
+  </data>
+  <data name="&gt;&gt;lb_close.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="lb_status.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -1478,10 +1496,10 @@
 </value>
   </data>
   <data name="&gt;&gt;lb_mini.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>9</value>
   </data>
-  <data name="&gt;&gt;lb_title.ZOrder" xml:space="preserve">
-    <value>7</value>
+  <data name="&gt;&gt;lb_submain.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="lb_mini.Text" xml:space="preserve">
     <value>–</value>
@@ -1489,14 +1507,14 @@
   <data name="lb_status.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="lb_dest.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
+  <data name="lb_note_override.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
   </data>
-  <data name="lb_main.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
+  <data name="lb_img_copyright.Text" xml:space="preserve">
+    <value>Image from © Minecraft.net</value>
   </data>
   <data name="&gt;&gt;lb_main.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>7</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>ModernInstaller Minecraft</value>
@@ -1507,44 +1525,56 @@
   <data name="&gt;&gt;lb_mini.Name" xml:space="preserve">
     <value>lb_mini</value>
   </data>
-  <data name="&gt;&gt;bt_install.Parent" xml:space="preserve">
+  <data name="&gt;&gt;lb_note_override.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;lb_status.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="lb_main.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
   </data>
   <data name="&gt;&gt;lb_title.Name" xml:space="preserve">
     <value>lb_title</value>
   </data>
-  <data name="lb_status.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="bt_install.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 45</value>
   </data>
-  <data name="lb_img_copyright.Size" type="System.Drawing.Size, System.Drawing">
-    <value>157, 15</value>
+  <data name="&gt;&gt;bt_install.Name" xml:space="preserve">
+    <value>bt_install</value>
   </data>
-  <data name="&gt;&gt;lb_submain.Name" xml:space="preserve">
-    <value>lb_submain</value>
+  <data name="&gt;&gt;tb_dest.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="lb_img_copyright.Location" type="System.Drawing.Point, System.Drawing">
     <value>2, 569</value>
   </data>
-  <data name="&gt;&gt;lb_dest.ZOrder" xml:space="preserve">
-    <value>1</value>
+  <data name="&gt;&gt;lb_title.ZOrder" xml:space="preserve">
+    <value>8</value>
   </data>
-  <data name="&gt;&gt;lb_main.Name" xml:space="preserve">
-    <value>lb_main</value>
+  <data name="lb_note_override.Size" type="System.Drawing.Size, System.Drawing">
+    <value>456, 15</value>
   </data>
-  <data name="&gt;&gt;lb_status.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;lb_img_copyright.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="lb_img_copyright.AutoSize" type="System.Boolean, mscorlib">
+  <data name="lb_note_override.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="&gt;&gt;time_checkcmd.Name" xml:space="preserve">
-    <value>time_checkcmd</value>
+  <data name="lb_img_copyright.Size" type="System.Drawing.Size, System.Drawing">
+    <value>157, 15</value>
+  </data>
+  <data name="lb_dest.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 21</value>
+  </data>
+  <data name="bt_install.Text" xml:space="preserve">
+    <value>Install</value>
+  </data>
+  <data name="lb_close.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 35pt</value>
+  </data>
+  <data name="lb_close.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 62</value>
+  </data>
+  <data name="lb_submain.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;lb_note_override.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;lb_title.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -1558,29 +1588,29 @@
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
     <value>1049, 587</value>
   </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>Main</value>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="lb_mini.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 35pt</value>
   </data>
-  <data name="lb_submain.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
+  <data name="&gt;&gt;lb_note_override.Name" xml:space="preserve">
+    <value>lb_note_override</value>
   </data>
-  <data name="&gt;&gt;time_status.Name" xml:space="preserve">
-    <value>time_status</value>
+  <data name="&gt;&gt;lb_submain.Name" xml:space="preserve">
+    <value>lb_submain</value>
   </data>
-  <data name="lb_submain.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="&gt;&gt;bt_install.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="lb_status.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
+  <data name="&gt;&gt;time_status.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;lb_close.Name" xml:space="preserve">
     <value>lb_close</value>
   </data>
-  <data name="lb_main.Text" xml:space="preserve">
-    <value>Welcome!</value>
+  <data name="lb_submain.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 16pt</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
