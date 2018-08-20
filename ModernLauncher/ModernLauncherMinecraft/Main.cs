@@ -77,6 +77,9 @@ namespace ModernLauncherMinecraft
         #region Event Component Handler
         private void launch_vlw_Click(object sender, EventArgs e)
         {
+            if (Thread.CurrentThread.CurrentUICulture.Name.Contains("ja")) Launch.changeOption(1);
+            else if (Thread.CurrentThread.CurrentUICulture.Name.Contains("zh")) Launch.changeOption(2);
+                else Launch.changeOption(0);
             Launch.VLW(tb_user.Text, tb_pass.Text, tb_memory.Text, Application.StartupPath, cb_fullscreen.Checked);
             Sortie();
         }

@@ -16,7 +16,7 @@ namespace ModernLauncherMinecraft
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            System.Threading.Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo(System.Globalization.CultureInfo.CurrentUICulture.Name);
+            System.Threading.Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo(System.Globalization.CultureInfo.CurrentUICulture.Name); // new System.Globalization.CultureInfo("zh-CN"); // 
             Application.Run(new Main());
         }
     }

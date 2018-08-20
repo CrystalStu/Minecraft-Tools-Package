@@ -88,6 +88,15 @@ namespace ModernInstallerMinecraft
 
         private void Main_Load(object sender, EventArgs e)
         {
+            if (Application.StartupPath.Contains(" ") || Application.ExecutablePath.Contains(" "))
+            {
+                if (Thread.CurrentThread.CurrentUICulture.Name.Contains("zh"))
+                {
+                    MessageBox.Show("请不要在安装包路径中含有空格(' ')（如某些通讯软件下载默认的Tencent Files等），请移动安装包到没有空格的路径并重试。");
+                }
+                else MessageBox.Show("Please don't contain space(' ') in the installer path, please move the installer to a safe path and retry.");
+                Sortie();
+            }
             DelTrashAndKillCmd();
             // CheckEnable();
             CheckVer();
@@ -112,7 +121,7 @@ namespace ModernInstallerMinecraft
                 {
                     MessageBox.Show("请不要在安装路径中含有空格(' ')，请修改您的选项并重试。");
                 }
-                MessageBox.Show("Please don't contain space(' ') in the destination path, please modify your option and retry.");
+                else MessageBox.Show("Please don't contain space(' ') in the destination path, please modify your option and retry.");
                 return;
             }
             if (installed == false)

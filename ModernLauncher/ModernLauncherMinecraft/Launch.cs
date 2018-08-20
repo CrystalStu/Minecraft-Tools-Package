@@ -1,6 +1,7 @@
 ﻿using KMCCC.Authentication;
 using KMCCC.Launcher;
 using System;
+using System.IO;
 using System.Linq;
 using System.Threading;
 using System.Windows.Forms;
@@ -9,6 +10,45 @@ namespace ModernLauncherMinecraft
 {
     class Launch
     {
+        public static void changeOption(int lang)
+        {
+            if (!File.Exists(Application.StartupPath + @"\.minecraft\versions\1.13\options.txt"))
+            {
+                FileInfo fi = new FileInfo(Application.StartupPath + @"\.minecraft\versions\1.13\options.txt.tmpl");
+                if (fi.Attributes.ToString().IndexOf("ReadOnly") != -1)
+                    fi.Attributes = FileAttributes.Normal;
+                fi.MoveTo(Application.StartupPath + @"\.minecraft\versions\1.13\options.txt");
+            }
+            string langStr;
+            switch (lang)
+            {
+                default:
+                    langStr = "en_us";
+                    break;
+                case 1:
+                    langStr = "ja_jp";
+                    break;
+                case 2:
+                    langStr = "zh_cn";
+                    break;
+            }
+            string[] properties = File.ReadAllLines(Application.StartupPath + @"\.minecraft\versions\1.13\options.txt");
+            for(int t = 0; t < properties.Length; t++)
+            {
+                if(properties[t].Split(':')[0] == "gamma")
+                {
+                    properties[t] = properties[t].Replace("1", "0").Replace("2", "0").Replace("3", "0").Replace("4", "0").Replace("5", "0").Replace("6", "0").Replace("7", "0").Replace("8", "0").Replace("9", "0");
+                    continue;
+                }
+                if(properties[t].Split(':')[0] == "lang")
+                {
+                    properties[t] = "lang:" + langStr;
+                    continue;
+                }
+            }
+            File.WriteAllLines(Application.StartupPath + @"\.minecraft\versions\1.13\options.txt", properties);
+        }
+
         public static void VLW(string username, string password, string memory, string path, bool fullScreen)
         {
             string serverStr = "28f8f58a8a7f11e88feb525400b59b6a";
