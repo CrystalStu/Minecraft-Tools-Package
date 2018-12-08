@@ -64,11 +64,13 @@ namespace ModernLauncherMinecraft
                 Authenticator = new YggdrasilLogin(username, password, true, null, "https://auth2.nide8.com:233/" + serverStr + "/authserver"), // 伪正版启动，最后一个为是否twitch登录
                 Mode = LaunchMode.MCLauncher, //启动模式
                 // Server = new ServerInfo { Address = "ali.cge.hm", Port = 30033 }, //设置启动游戏后，自动加入指定IP的服务器，可以不要
+                /*
                 Size = new WindowSize
                 {
                     Height = 720,
                     Width = 1280,
                 } //设置窗口大小，可以不要
+                */
             };
             if (fullScreen) option.Size.FullScreen = true;
             var result = Program.Core.Launch(option);
